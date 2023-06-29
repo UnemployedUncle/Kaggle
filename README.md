@@ -15,34 +15,55 @@
 ## 2. Starting new competition
 1. Start/End it with README.md
 2. Manage it with GitHub
-3. Folder hierarchy
+3. Folder hierarchy(Pipeline)
 ```
 tree
 ㄴdata ~ source data
 ㄴenv ~ environment
 ㄴeda ~ EDA Notebook
 ㄴsrc ~ source code
+    ㄴfeature: feature engineering
+    ㄴtrn|model: train
+    ㄴval|metric: cross validation
+    ㄴtst: test
 ㄴoutput ~ prediction results
+    ㄴfeature: premade features
+    ㄴmodel: model checkpoints
+    ㄴsub: submission
+    ㄴlog
 ㄴdocs ~ reference documentations
 .gitignore ~ input/data/
+.github ~ issue templates, pull request templates, ...
 ```
 4. Environment
 ```
-# Create
+# Conda Environment
+## Create
 conda create -n "env_name"
 conda activate (env_name)
 
-# Export
+## Export
 conda env export > env/(file_name).yaml
 conda env export --no-builds | prep -v "prefix" > env/(file_name).yaml
 
-# Install
+## Install
 conda env create -n (env_name) -f (file_name).yaml
 
-# Update
+## Update
 conda update -n (env_name) -f (file_name).yaml --prune
+
+## Remove
+conda env remove -n (env_name)
 ```
 
+5. requirements.txt
+```
+# Create
+pip freeze > requirements.txt
+
+# Install all
+pip install -r requirements.txt
+```
 
 
 ## 3. README.md Framework
@@ -68,3 +89,11 @@ Data, Code, Model, ...
 
 [id]: http:// "Optional Title"
 ```
+
+
+## Reference
+1. 캐글가이드
+2. LA오빠
+[Title](https://www.youtube.com/watch?v%253DahNx5rqCdfQ)
+[Title](https://www.youtube.com/watch?v%253DHqhG7T9UL88)
+[Title](https://www.youtube.com/watch?v%253DDk1dznYe5kA)
