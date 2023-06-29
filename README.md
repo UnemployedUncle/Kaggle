@@ -14,6 +14,7 @@
 
 ## 2. Starting new competition
 1. Start/End it with README.md
+    - Internal Leaderboard: Single model, Ensemble
 2. Manage it with GitHub
 3. Folder hierarchy(Pipeline)
 ```
@@ -70,6 +71,8 @@ pip install -r requirements.txt
 ```Markdown
 # [Title]()
 
+## Internal Leaderboard
+
 [Description](#Description)  
 [Evaluation](#Evaluation)  
 [Contents](#Contents)  
@@ -92,8 +95,8 @@ Data, Code, Model, ...
 
 
 ## Reference
-1. 캐글가이드
-2. LA오빠
-[Title](https://www.youtube.com/watch?v%253DahNx5rqCdfQ)
-[Title](https://www.youtube.com/watch?v%253DHqhG7T9UL88)
-[Title](https://www.youtube.com/watch?v%253DDk1dznYe5kA)
+1. Kaggle Guide _ Book
+2. How to mange code and files
+    - https://www.youtube.com/watch?v%253DahNx5rqCdfQ
+    - https://github.com/jeongyoonlee/cat-in-the-dat
+    - https://kaggler.com/2020/02/19/kaggler-pipeline.html
