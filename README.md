@@ -95,7 +95,8 @@ Data, Code, Model, ...
 
 
 ## Reference
-1. Kaggle Guide _ Book
+1. Kaggle Guide
+    - Toshiyuki Sakamoto, 2019, Data Science No Mori: Kaggle NO ARUKIKATA
 2. How to mange code and files
     - https://www.youtube.com/watch?v%253DahNx5rqCdfQ
     - https://github.com/jeongyoonlee/cat-in-the-dat
