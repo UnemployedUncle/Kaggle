@@ -1,15 +1,17 @@
 # [Kaggle](https://www.kaggle.com/)
 
 ## History
-1. [230716_AIReport](https://www.kaggle.com/competitions/2023-kaggle-ai-report)
+1. [AIReport](https://www.kaggle.com/competitions/2023-kaggle-ai-report)
+2. [Titanic](https://www.kaggle.com/competitions/titanic)
+
+Learn Courses & Guides
 
 
 
-## 1. Coding Convention
+## 1. Ground Rule (Coding Convention)
 1. Markdown style
 2. Camel case (Under bars)
-3. Folder name : Platform > LectureName_Lecturer (+ Tags)
-
+3. Every Copy & Edit Notebook to Reference
 
 
 ## 2. Starting new competition
@@ -67,7 +69,9 @@ pip install -r requirements.txt
 ```
 
 
+
 ## 3. README.md Framework
+
 ```Markdown
 # [Title]()
 
@@ -94,9 +98,51 @@ Data, Code, Model, ...
 ```
 
 
+
+## 4. Kaggle Flow
+1. Data
+    - Data Collection
+    - EDA
+        - Distribution Check
+        - Missing Value Check
+        - Correlation Check
+    - Data Preprocessing
+        - Feature Engineering
+        - Missing and Outlier Handling
+    - Data Augmentation
+2. Model
+    - Model Selection
+    - Model Training
+    - Model Evaluation
+3. Inference
+    - Inference
+    - Ensemble/Stacking
+4. Submission
+    - Submission
+    - Leaderboard
+5. Documentation
+    - Reference
+    - Presentation
+6. Reproducibility
+    - Environment
+    - Data
+    - Code
+    - Model
+    - Submission
+
+
+
+## 5. Competition Flow
+1. Baseline Notebook
+2. Data Aanalysis Notebook
+3. Fork Notebook (Copy & Edit)
+4. Merge Notebook
+
+
+
 ## Reference
-1. Kaggle Guide
-    - Toshiyuki Sakamoto, 2019, Data Science No Mori: Kaggle NO ARUKIKATA
+1. Toshiyuki Sakamoto, 2019, Data Science No Mori: Kaggle NO ARUKIKATA
+    - Introduction to Kaggle competitions
 2. How to mange code and files
     - https://www.youtube.com/watch?v%253DahNx5rqCdfQ
     - https://github.com/jeongyoonlee/cat-in-the-dat
