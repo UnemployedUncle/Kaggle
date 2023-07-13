@@ -11,6 +11,12 @@
 Revisited the competition to practice building ML pipelines.  
 Still a great starting point for everyone.
 
+- On April 15, 1912, the Titanic sank after colliding with an iceberg,
+  killing 1502 out of 2224 passengers and crew. (32% survival rate)
+- One of the reasons of loss was that there were not enough lifeboats.
+- Pattern? Some groups of people were more likely to survive than others,
+  such as women, children, and the upper-class.
+
 ## Evaluation
 1. Metric  
 ![Accuracy](https://wikimedia.org/api/rest_v1/media/math/render/svg/7bfe40cea126a04004b82f729cf7df1ec435fbf6)

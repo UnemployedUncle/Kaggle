@@ -100,15 +100,25 @@ Data, Code, Model, ...
 
 
 ## 4. Kaggle Flow
+
+Problem Definition
+0. Setting
+    0. Install Packages
+    1. Basic Packages
+    2. Visualization
+    3. Modeling
+
 1. Data
-    - Data Collection
+    - Import Data, Data Collection
+    - Meta type
     - EDA
-        - Distribution Check
+        - Categorcal ~ nunique, value_counts, top, freq
+        - Numerical ~ Distribution Check
         - Missing Value Check
-        - Correlation Check
-    - Data Preprocessing
+    - Data Preprocessing (Wrangle, Clean, Transform)
         - Feature Engineering
         - Missing and Outlier Handling
+        - Correlation Check
     - Data Augmentation
 2. Model
     - Model Selection
@@ -121,6 +131,7 @@ Data, Code, Model, ...
     - Submission
     - Leaderboard
 5. Documentation
+    - Visualization
     - Reference
     - Presentation
 6. Reproducibility
@@ -129,7 +140,6 @@ Data, Code, Model, ...
     - Code
     - Model
     - Submission
-
 
 
 ## 5. Competition Flow
